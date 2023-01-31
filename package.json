@@ -1,6 +1,6 @@
 {
-  "name": "@atom/nsfw",
-  "version": "1.0.28",
+  "name": "@atom-editor/nsfw",
+  "version": "1.1.0",
   "description": "A simple file watcher for Node",
   "main": "lib/src/index.js",
   "scripts": {
