@@ -1,6 +1,4 @@
-##### Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)
- [![CI](https://github.com/atom/nsfw/actions/workflows/ci.yml/badge.svg)](https://github.com/atom/nsfw/actions/workflows/ci.yml)
-A simple file watcher library for node.
+# NSFW
 
 ## Why NSFW?
 NSFW is a native abstraction for Linux, Windows, and OSX file watching services which tries to keep a consistent interface and feature set across operating systems. NSFW offers recursive file watching into deep file systems all at no additional cost to the Javascript layer. In Linux, NSFW recursively builds an inotify watch tree natively, which collects events concurrently to the javascript thread. In OSX, NSFW utilizes the FSEventsService, which recursively watches for file system changes in a specified directory. In Windows, NSFW implements a server around the ReadDirectoryChangesW method.
